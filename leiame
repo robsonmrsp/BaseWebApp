@@ -1,0 +1,13 @@
+Hoje, dia 14 de Setembro de 2012 01:00, a aplicação já possui as configurações basicas, dentre elas:
+
+- Injeção de dependencia com spring 3.1.1
+- Acesso a dados pelo Hibernate 4.1
+- Log de execução funcionando perfeitamente.
+- dataSource e pool de conexões funcionando com o C3P0.
+- Possibilidade de utilizar um arquivo de configuração das entradas como é feito hoje com os
+  arquivos na pasta conf  
+
+
+Hoje, dia 14 21:14 foi adicionado o suporte ao gxt 2.2.5
+- segundo pessoal do gxt(em http://www.sencha.com/forum/showthread.php?149171-2.2.5-and-gwt-2.4) devemos usar o arquivo Yes they are. You need to use the gxt-2.2.5-gwt22.jar
+TODO  Como pluguin do eclipse espera por um arquivo com o nome gxt.jar, renomeamos o acima para garantir que funcione. No futuro buscaremos essa info com ajuda do maven.

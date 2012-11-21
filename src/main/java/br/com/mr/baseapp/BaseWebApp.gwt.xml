@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module rename-to='basewebapp'>
+	<inherits name="com.extjs.gxt.ui.GXT" />
+	<inherits name="com.extjs.gxt.desktop.WebDesktop" />
+	<inherits name='com.google.gwt.user.User' />
+	
+	<entry-point class='br.com.mr.baseapp.client.BaseWebApp' />
+	
+	<source path='client' />
+	<source path='shared' />
+</module>

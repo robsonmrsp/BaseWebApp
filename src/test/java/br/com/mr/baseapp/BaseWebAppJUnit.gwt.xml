@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module>
+  <!-- Inherit our applications main module.                      -->
+  <inherits name='br.com.mr.baseapp.BaseWebApp'/>
+  <inherits name="com.extjs.gxt.ui.GXT"/>
+
+  <!-- Specify the path to any remote services.                   -->
+<!--   <servlet path="/baseapp/greet" class="br.com.mr.baseapp.server.GreetingServiceImpl" /> -->
+
+</module>
